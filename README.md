@@ -91,3 +91,16 @@ NOTES
 - Example:
   Before → abrasivo ≠ abrasivi
   After  → both return the same result set
+
+
+  ## Live Example
+
+This fix has been tested on a real Magento store:
+
+👉 https://ladecormarmi.com
+
+You can test search behavior directly using Italian queries such as:
+
+- abrasivo / abrasivi
+- utensile / utensili
+- lucidatrice / lucidatrici
