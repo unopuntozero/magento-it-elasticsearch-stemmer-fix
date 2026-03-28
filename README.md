@@ -93,14 +93,15 @@ NOTES
   After  → both return the same result set
 
 
-  ## Live Example
+## Live Example
 
-This fix has been tested on a real Magento store:
+This fix has been tested on a production Magento store:
 
 👉 https://ladecormarmi.com
 
-You can test search behavior directly using Italian queries such as:
+Example test queries:
 
-- abrasivo / abrasivi
-- utensile / utensili
-- lucidatrice / lucidatrici
+- "abrasivo" vs "abrasivi"
+- "utensile" vs "utensili"
+
+Both return consistent results after enabling the Italian stemmer.
