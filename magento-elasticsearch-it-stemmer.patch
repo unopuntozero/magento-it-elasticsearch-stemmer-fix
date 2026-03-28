@@ -1,0 +1,11 @@
+cat patches/magento-elasticsearch-it-stemmer.patch
+--- /tmp/esconfig.xml.old       2026-03-28 06:29:08.302348459 +0000
++++ /tmp/esconfig.xml.new       2026-03-28 06:29:08.298348442 +0000
+@@ -13,6 +13,7 @@
+         <de_DE>german</de_DE>
+         <en_US>english</en_US>
+         <es_ES>spanish</es_ES>
++        <it_IT>italian</it_IT>
+         <fr_FR>french</fr_FR>
+         <nl_NL>dutch</nl_NL>
+         <pt_BR>portuguese</pt_BR>
